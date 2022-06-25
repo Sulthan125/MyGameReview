@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.judul {
+    font-family: 'Style Script';
+    font-size: 20px;
+}
+
+.subjudul {
+    font-family: 'Lora';
+    font-size: 18px;
+}
+
+.bigtron {
+    padding: 60px;
+    background-color: #03045e;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: list-item;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+nav a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100px;
+    font-family: 'Lora';
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+nav {
+    background-color: #00b4d8;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+#isihalaman {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Roboto Serif';
+    text-align: justify;
+    padding: 20px;
+    overflow: auto;
+}
+
+
+h2,
+h3 {
+    color: #00a2c6;
+}
+
+.profil img {
+    width: 200px;
+}
+
+.artikel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profil {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+p {
+    line-height: 2em;
+}
+
+/*Menetapkan Aside Profil*/
+.profil header{
+    text-align: center;
+
+}
+
+/*Menetapkan Footer*/
+footer {
+    padding: 20px;
+    color: black;
+    background-color: #caf0f8;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Memanipulasi DOM pada Image Gallery setiap Gambar di section*/
+/*Shadow of The Tomb Raider*/
+.kontainer {
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid black;
+    line-height: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gambarkecil {
+    display: flex;
+}
+.kecil {
+    flex-grow: 1;
+    flex-direction: row;
+    border: 2px solid black;
+    overflow: auto;
+}
+.kecil:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+section1 {
+    margin: 10px;
+}
+
+@keyframes sallow {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: sallow 1s forwards;
+}
+
+.aktif {
+    opacity: 0.6;
+}
+
+/*Euro Truck Simulator 2*/
+.kontainer1 {
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid black;
+    line-height: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.gambarkecil1 {
+    display: flex;
+}
+
+.kecil1 {
+    flex-grow: 1;
+    flex-direction: row;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.kecil1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+section2 {
+    margin: 10px;
+}
+
+/*Forza Horizon 5*/
+.kontainer2 {
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid black;
+    line-height: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gambarkecil2 {
+    display: flex;
+}
+
+.kecil2 {
+    flex-grow: 1;
+    flex-direction: row;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.kecil2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+section3 {
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #isihalaman,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .kontainer{
+        width: 100%;
+    }
+    .kontainer1 {
+        width: 100%;
+    }
+    .kontainer2 {
+        width: 100%;
+    }
+}
+
+.profil img {
+    margin: 0 auto;
+}
+
+.biodata {
+    display: grid;
+    text-align: center;
+    place-items: center; 
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
