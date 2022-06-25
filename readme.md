@@ -1,3 +1,5 @@
-#MyGameReview
+# MyGameReview
+This is my file in the form of a portfolio from Dicoding about web developer. It is built using HTML as the framework, CSS as the interface, and Javascript as the logic.
 
-Ini merupakan file saya berupa portofolio tentang web developer. Ini dibuat dengan menggunakan HTML sebagai kerangkanya, CSS sebagai tampilannya, dan Javascript sebagai logikanya. 
+### HTML
+
